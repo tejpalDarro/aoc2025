@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
 
 class Day1 {
   static int code = 50;
@@ -15,6 +14,15 @@ class Day1 {
       cntZero += 1 + (move - d) / 100;
     }
     code = (code - move % 100 + 100) % 100;
+    // int temp = code - move;
+    // if (temp < 0 && code != 0) {
+    //   System.out.println("new zero L: " +temp);
+    //   cntZero++;
+    // }
+    // code = (code - move + 100) % 100;   
+    // if (code == 0) 
+    //   cntZero++;
+    // System.out.println("L: " + move + ", " + code);
   }
 
   public static void increment(int move) {
@@ -25,6 +33,15 @@ class Day1 {
       cntZero += 1 + (move - distToZero) / 100;
     }
     code = (code + move) % 100;
+    // int temp = code + move;
+    // if (temp > 100) {
+    //   System.out.println("new zero R: " +temp);
+    //   cntZero++;
+    // }
+    // code = (code + move) % 100;   
+    // if (code == 0) 
+    //   cntZero++;
+    // System.out.println("R: " + move + ", " + code);
   }
 
   public static void main(String[] args) throws IOException {
