@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-class Day5 {
+class Day4 {
 
   static final int[] DIR_X = {0,1,0,-1,1,1,-1,-1};
   static final int[] DIR_Y = {1,0,-1,0,1,-1,1,-1};
@@ -75,8 +75,8 @@ class Day5 {
 
   public static void main(String[] args) throws IOException {
     List<List<Character>> arr = new ArrayList<>();
-    // BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay5Demo.txt"));
-    BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay5.txt"));
+    // BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay4Demo.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay4.txt"));
     String line = null;
 
     while ((line = br.readLine()) != null ) {
