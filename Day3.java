@@ -25,8 +25,8 @@ class Day3 {
   }
 
   public static void main(String[] args) throws IOException {
-    // BufferedReader br = new BufferedReader(new FileReader("inputDay3Demo.txt"));
-    BufferedReader br = new BufferedReader(new FileReader("inputDay3.txt"));
+    // BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay3Demo.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay3.txt"));
     String line = null;
     int total = 0;
     while ((line = br.readLine()) != null) {

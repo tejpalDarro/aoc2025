@@ -37,8 +37,8 @@ class Day2 {
   }
 
   public static void part2() throws IOException {
-    // BufferedReader br = new BufferedReader(new FileReader("inputDay2Demo.txt"));
-    BufferedReader br = new BufferedReader(new FileReader("inputDay2.txt"));
+    // BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay2Demo.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay2.txt"));
     String line = null;
     List<String> list = new ArrayList<>();
     List<String> invalid = new ArrayList<>();

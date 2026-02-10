@@ -75,8 +75,8 @@ class Day5 {
 
   public static void main(String[] args) throws IOException {
     List<List<Character>> arr = new ArrayList<>();
-    // BufferedReader br = new BufferedReader(new FileReader("inputDay5Demo.txt"));
-    BufferedReader br = new BufferedReader(new FileReader("inputDay5.txt"));
+    // BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay5Demo.txt"));
+    BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay5.txt"));
     String line = null;
 
     while ((line = br.readLine()) != null ) {

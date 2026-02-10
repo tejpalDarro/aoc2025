@@ -45,8 +45,8 @@ class Day1 {
   }
 
   public static void main(String[] args) throws IOException {
-    BufferedReader br = new BufferedReader(new FileReader("inputDay1.txt"));    
-    // BufferedReader br = new BufferedReader(new FileReader("inputDay1Demo.txt"));    
+    BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay1.txt"));    
+    // BufferedReader br = new BufferedReader(new FileReader("inputs/inputDay1Demo.txt"));    
     String line = null;
     
     int len = 0;
